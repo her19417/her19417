@@ -1,0 +1,96 @@
+textPanel
+panel:textPanel
+capa:Centros y puestos de vacunación
+rutaCapa:file:///C:/Users/anton/Documents/UVG/Semestre%20VI/SIG%20&%20Geodesia/PROYECTO_FINAL/ETAPA%20DE%20PRUEBA/CSV/C&PDV.csv?encoding=latin8&type=csv&delimiter=;&maxFields=10000&detectTypes=yes&xField=LONGITUD&yField=LATITUD&crs=EPSG:4326&spatialIndex=no&subsetIndex=no&watchFile=no
+idCapa:Centros_y_puestos_de_vacunación_8540eebd_e616_48eb_90d0_36174ff0c261
+x:0.0
+y:0.0
+title:Total de vacunas administradas 
+type:atributo
+expression:TDA
+capa2:None
+anchoP:40.0
+altoP:30.0
+fondTit:rgb(30,219,43)
+colorTextTit:rgb(255,255,255)
+fondVal:rgb(0,0,0)
+colorTextVal:rgb(255,255,255)
+suavizado:0
+estilo:United frames
+icono:True
+rutaIcono:C:/PROGRA~1/QGIS3~1.14/apps/qgis/./svg/emergency/Jeringa.svg
+direccionIcono:center
+colorIcono:1
+textPanel
+panel:textPanel
+capa:Centros y puestos de vacunación
+rutaCapa:file:///C:/Users/anton/Documents/UVG/Semestre%20VI/SIG%20&%20Geodesia/PROYECTO_FINAL/ETAPA%20DE%20PRUEBA/CSV/C&PDV.csv?encoding=latin8&type=csv&delimiter=;&maxFields=10000&detectTypes=yes&xField=LONGITUD&yField=LATITUD&crs=EPSG:4326&spatialIndex=no&subsetIndex=no&watchFile=no
+idCapa:Centros_y_puestos_de_vacunación_8540eebd_e616_48eb_90d0_36174ff0c261
+x:0.0
+y:0.1827
+title:No. de vacunas restantes
+type:atributo
+expression:VR_18102021:
+capa2:None
+anchoP:40.0
+altoP:30.0
+fondTit:rgb(30,219,43)
+colorTextTit:rgb(255,255,255)
+fondVal:rgb(0,0,0)
+colorTextVal:rgb(255,255,255)
+suavizado:0
+estilo:United frames
+icono:True
+rutaIcono:C:/PROGRA~1/QGIS3~1.14/apps/qgis/./svg/emergency/Jeringa.svg
+direccionIcono:center
+colorIcono:1
+textPanel
+panel:textPanel
+capa:Centros y puestos de vacunación
+rutaCapa:file:///C:/Users/anton/Documents/UVG/Semestre%20VI/SIG%20&%20Geodesia/PROYECTO_FINAL/ETAPA%20DE%20PRUEBA/CSV/C&PDV.csv?encoding=latin8&type=csv&delimiter=;&maxFields=10000&detectTypes=yes&xField=LONGITUD&yField=LATITUD&crs=EPSG:4326&spatialIndex=no&subsetIndex=no&watchFile=no
+idCapa:Centros_y_puestos_de_vacunación_8540eebd_e616_48eb_90d0_36174ff0c261
+x:0.0
+y:0.3655
+title:No. de personas vacunadas
+type:atributo
+expression:DA_18102021:
+capa2:None
+anchoP:40.0
+altoP:30.0
+fondTit:rgb(30,219,43)
+colorTextTit:rgb(255,255,255)
+fondVal:rgb(0,0,0)
+colorTextVal:rgb(255,255,255)
+suavizado:0
+estilo:United frames
+icono:True
+rutaIcono:C:/PROGRA~1/QGIS3~1.14/apps/qgis/./svg/gpsicons/couple.svg
+direccionIcono:center
+colorIcono:1
+indicadorPanel
+panel:indicadorPanel
+capa:Centros y puestos de vacunación
+rutaCapa:file:///C:/Users/anton/Documents/UVG/Semestre%20VI/SIG%20&%20Geodesia/PROYECTO_FINAL/ETAPA%20DE%20PRUEBA/CSV/C&PDV.csv?encoding=latin8&type=csv&delimiter=;&maxFields=10000&detectTypes=yes&xField=LONGITUD&yField=LATITUD&crs=EPSG:4326&spatialIndex=no&subsetIndex=no&watchFile=no
+idCapa:Centros_y_puestos_de_vacunación_8540eebd_e616_48eb_90d0_36174ff0c261
+x:0.0
+y:0.5482
+anchoP:40.0
+altoP:30.0
+expression:AFL_18102021
+title:Afluencia de personas
+colorTit:rgb(0,0,0)
+colorBar:rgb(255,255,45)
+colorBackground:rgb(255,255,255)
+colorBase:rgb(122,122,122)
+colorLine:rgb(255,0,0)
+colorFinal:rgb(122,122,122)
+colorMark:rgb(255,0,0)
+colorValue:rgb(0,0,0)
+sizeTitle:10
+sizeLabel:10
+relative:true
+type:atributo
+estilo:Angular
+min:0.0
+max:100.0
+threshold:80.0
